@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    z-index: 1000;
+    padding: 0px;
+}
+
+/* Navbar */
+header nav .nav-link
+{
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    font-family: "Alata", sans-serif;
+    font-size: 18px;
+   
+} 
+header nav .nav-link::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    transform: scale(0);
+    transform-origin:left;
+    transition: transform 0.7s ease;   
+}
+header nav .nav-link:hover::after
+{
+    transform: scale(1);
+}
+.navbar-nav .nav-link.active::after
+{
+    transform: scale(1);
+}
+
+/* End Navbar */
+
+header nav .cart-icon
+{
+    position: relative;
+    cursor: pointer;
+}
+header nav .cart-icon span
+{
+    position: absolute;
+    right: -20px;
+}
+header nav .logo
+{
+    width: 100px;
+}
+
+/* Sticky */
+header  .sticky{
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: all 15ms ease-in-out;    
+    animation-name: stickyTransition;
+    animation-duration: 0.5s;
+    animation-fill-mode:both;
+    box-shadow: 0px 2px 3px rgba(96,96,96,0.1);
+}
+@keyframes stickyTransition {
+    0%{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
