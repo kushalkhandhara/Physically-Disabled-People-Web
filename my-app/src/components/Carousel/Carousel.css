@@ -60,20 +60,15 @@
 {
     .carousel-caption
     {
-        width: 400px;
+        width: 300px;
     }
     .carousel-caption h1
     {
-        /* font-family:"Playfair Display", serif; */
-        /* font-weight: 400; */
-        font-size: 21px;
+        font-size: 20px;
     }
     .carousel-caption .para
     {
-        /* margin-top: 18px; */
-        /* text-align: center; */
-        font-size: 16px;
-        /* line-height: 1.5; */
+        font-size: 13px;
     }
     .carousel-item .carousel-img1 img
     {
