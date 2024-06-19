@@ -45,7 +45,7 @@ function Navbar1()
                       <Nav.Link className= {menu==="videos"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("videos")}} as={Link} to="/videos" >Videos</Nav.Link>
                       <Nav.Link className= {menu==="chat"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("chat")}}  as={Link} to="/chat" >Chat</Nav.Link>
                       <Nav.Link className= {menu==="career"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("career")}}  as={Link} to="/career" >Career</Nav.Link>
-                      <Nav.Link className= {menu==="blog"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("blog")}}  as={Link} to="/blog" >Blog</Nav.Link>
+                      <Nav.Link className= {menu==="blog"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("caretaker")}}  as={Link} to="/caretaker" >Care Taker</Nav.Link>
                       <Nav.Link className= {menu==="about"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("about")}}  as={Link} to="/about" >About</Nav.Link>
                       <Nav.Link className= {menu==="contact"?"me-4 active" : "me-4"}  onClick={()=>{setMenu("contact")}}  as={Link} to="/contact" >Contact</Nav.Link>
       
