@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.section4
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 76px;
+}
+.section4 .section4-header
+{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.section4 .section4-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 38px;
+}
+.section4 .section4-cards .section4-card
+{
+    width: 300px;
+    border: 1px solid rgb(234, 234, 234);
+    padding: 20px 20px 5px;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.section4 .section4-cards .section4-card:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.section4 .section4-cards .section4-card .sec4-card-header
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: "Outfit", sans-serif;
+    overflow: hidden;
+}
+.section4 .section4-cards .section4-card .sec4-card-header .profile-desc
+{
+    line-height: 0.3;
+}
+.section4 .section4-cards .section4-card .profile-img img
+{
+    width: 75px;
+    height: 75px;
+}
+.section4 .section4-btns
+{
+    text-align: center;
+    margin-top: 55px;
+}

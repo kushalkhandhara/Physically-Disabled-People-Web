@@ -12,7 +12,7 @@ export default function Carousel1() {
   return (
     <>
     <div className="carousels">
-      <Carousel fade indicators={true} controls={false}>
+      <Carousel fade indicators={false} controls={false}>
         
         <Carousel.Item>
               <div className="carousel-img1"> 
@@ -38,7 +38,6 @@ export default function Carousel1() {
                     Explore Shop
                   </button>
                 </div>
-
               </Carousel.Caption>
         </Carousel.Item>
 

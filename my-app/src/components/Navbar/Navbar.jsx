@@ -29,24 +29,24 @@ function Navbar1()
     <header>
       <Navbar expand="lg" className={`${nav===true ? "sticky" : "" }`}>
         <Container fluid>
-          <Navbar.Brand  as={Link} to="/" className= {menu==="home"?"me-3 active" : "me-3"}   onClick={()=>{setMenu("home")}}>
+          <Navbar.Brand  as={Link} to="/" className= {menu==="home"?"me-2 active" : "me-2"}   onClick={()=>{setMenu("home")}}>
             <img src={logo} className='img-fluid logo' alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="  ms-auto">
-                      <Nav.Link className= {menu==="home"?"me-3 active" : "me-3"}   onClick={()=>{setMenu("home")}}  as={Link} to="/"   >Home</Nav.Link>
+                      <Nav.Link className= {menu==="home"?"me-2 active" : "me-2"}   onClick={()=>{setMenu("home")}}  as={Link} to="/"   >Home</Nav.Link>
                       
-                      <Nav.Link className= {menu==="shop"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("shop")}}  as={Link} to="/shop" >Shop</Nav.Link>
+                      <Nav.Link className= {menu==="shop"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("shop")}}  as={Link} to="/shop" >Shop</Nav.Link>
 
-                      <Nav.Link className= {menu==="disablity"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("disablity")}} as={Link} to="/disablity" >Disablity</Nav.Link>
+                      <Nav.Link className= {menu==="disablity"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("disablity")}} as={Link} to="/disablity" >Disablity</Nav.Link>
                       
-                      <Nav.Link className= {menu==="jobs"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("jobs")}}  as={Link} to="/jobs" >Jobs</Nav.Link>
-                      <Nav.Link className= {menu==="videos"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("videos")}} as={Link} to="/videos" >Videos</Nav.Link>
-                      <Nav.Link className= {menu==="chat"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("chat")}}  as={Link} to="/chat" >Chat</Nav.Link>
-                      <Nav.Link className= {menu==="career"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("career")}}  as={Link} to="/career" >Career</Nav.Link>
-                      <Nav.Link className= {menu==="blog"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("caretaker")}}  as={Link} to="/caretaker" >Care Taker</Nav.Link>
-                      <Nav.Link className= {menu==="about"?"me-3 active" : "me-3"}  onClick={()=>{setMenu("about")}}  as={Link} to="/about" >About</Nav.Link>
+                      <Nav.Link className= {menu==="jobs"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("jobs")}}  as={Link} to="/jobs" >Jobs</Nav.Link>
+                      <Nav.Link className= {menu==="videos"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("videos")}} as={Link} to="/videos" >Videos</Nav.Link>
+                      <Nav.Link className= {menu==="chat"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("chat")}}  as={Link} to="/chat" >Chat</Nav.Link>
+                      <Nav.Link className= {menu==="career"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("career")}}  as={Link} to="/career" >Career</Nav.Link>
+                      <Nav.Link className= {menu==="blog"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("caretaker")}}  as={Link} to="/caretaker" >Care Taker</Nav.Link>
+                      <Nav.Link className= {menu==="about"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("about")}}  as={Link} to="/about" >About</Nav.Link>
                       <Nav.Link className= {menu==="contact"?"me-4 active" : "me-4"}  onClick={()=>{setMenu("contact")}}  as={Link} to="/contact" >Contact</Nav.Link>
       
                       <div className="d-flex align-items-center ">

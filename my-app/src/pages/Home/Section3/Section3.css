@@ -1,6 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 .section3
 {
     width: 100%;
     overflow: hidden;
     margin-top: 76px;
+}
+.section3 .section3-header
+{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    text-align: center;
+}
+.section3 .section3-main-content
+{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    padding: 35px 20px;
+    align-items: center;
+    border: 1px solid rgb(227, 214, 214);
+    border-radius: 10px;
+    background: linear-gradient(360deg,#f6febf,#e1ffea22 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/* Side->1 */
+.section3 .section3-main-content .side1
+{
+    width: 540px;
+    font-family: "Outfit", sans-serif;
+}
+.section3 .section3-main-content .side1 .side-img
+{
+    width: 300px;
+}
+.section3 .section3-main-content .side1 .side-desc
+{
+    margin-top:30px;
+    padding-left: 22px;
+}
+.section3 .section3-main-content .side1 .side-desc h4
+{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.section3 .section3-main-content .side1 .side-desc p
+{
+    line-height: 1.2;
+}
+/* Side 1 Ends Here */
+
+/* Side 2 Starts Here */
+.section3 .section3-main-content .side2
+{
+    width: 750px;
+}
+
+.section3 .section3-main-content .side2 .job-cards
+{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 25px;
+}
+.section3 .section3-main-content .side2 .job-cards .job-card
+{
+    width: 240px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 8px;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.section3 .section3-main-content .side2 .job-cards .job-card:hover
+{
+    transition: 1.5s ease;
+    transform: scale(1.1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.section3 .section3-btns
+{
+    text-align: center;
+    margin-top: 55px;
+}
+
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .section3
+    {
+        padding: 20px;
+    }
+    .section3 .section3-main-content
+    {
+        flex-direction: column;
+        margin-top: 55px;
+    }
+    .section3 .section3-main-content .side1
+    {
+        width: 100%;
+    }
+    .section3 .section3-main-content .side2
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section3 .section3-main-content .side2 .job-cards
+    {
+        gap: 12px;
+    }
+    .section3 .section3-main-content .side2 .job-cards .job-card
+    {
+        width: 250px;
+        padding: 7px;
+        line-height: 1.1;
+    }
+    .section3 .section3-main-content .side2 .job-cards .job-card h5
+    {
+        font-size: 17px;
+    }
+    .section3 .section3-main-content .side2 .job-cards .job-card p
+    {
+        font-size: 13px;
+    }
 }
