@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.section5
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 76px;
+}
+.section5-header
+{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    text-align: center;
+}
+.section5 .desc
+{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+
+.section5 .desc .desc1 img
+{
+    width: 600px;
+}
+
+.section5 .desc .desc2 h2
+{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.section5 .desc .desc2-para p
+{
+    line-height: 1.4;
+    font-size: 17px;
+}
+@media (max-width: 900px) 
+{
+    .section5 .desc .desc1 img
+    {
+        width: 100%;
+    }
+    .section5 .desc
+    {
+        flex-direction: column;
+        /* display: flex; */
+        gap: 25px;
+        /* align-items: center; */
+    }
+
+}

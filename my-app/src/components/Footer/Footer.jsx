@@ -123,7 +123,7 @@ export default function Footer()
                         </form>
                     </div>
                 </div>
-                <div className="copyright mt-5">
+                <div className="copyright mt-5 pb-2">
                     <hr />
                     <h6>
                         &copy; Copy Right All Rights Reserved, 2024 Care Mate

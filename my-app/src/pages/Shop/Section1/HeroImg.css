@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.heroImg
+{
+    width: 100%;
+    overflow: hidden;
+}
+.heroImg .mask
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.heroImg .mask .into-img
+{
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    object-fit: cover;
+}
+.heroImg .mask::after
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: 0.4;
+}
+.heroImg .content
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+}
+.heroImg .content h2
+{
+    font-family:"Playfair Display", serif;
+    font-weight: 600;
+}
+.heroImg .content .form form
+{
+    display: flex;
+    margin-top: 30px;
+}
+.heroImg .content .form form input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.heroImg .content .form form input::placeholder
+{
+    padding-left:10px;
+    font-size: 14px;
+}
+.heroImg .content .form form input[type=text]
+{
+    padding-left: 20px;
+
+}
+
+.heroImg .content .form form button
+{
+    background: tomato;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .heroImg .content h2
+    {
+        font-size: 20px;
+    }
+    .heroImg .content .form form input
+    {
+        width: 240px;
+    }
+    .heroImg .content .form form button
+    {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+    .heroImg .content .form form input::placeholder
+    {
+        font-size: 12px;
+        /* padding-left:10px; */
+    }
+    .heroImg .mask
+    {
+        height: 84vh;   
+    }
+
+}
