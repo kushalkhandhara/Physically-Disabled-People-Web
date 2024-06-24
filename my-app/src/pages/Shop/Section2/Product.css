@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.product
+{
+    border: 1px solid rgb(176, 162, 162);
+    width: 290px;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.product .product-img img
+{
+    width: 280px;
+    height: 300px;
+    border-radius: 8px;
+}
+.product .product-desc p
+{
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: "Poppins", sans-serif;
+    color: rgb(32, 31, 31);
+}
+.product .product-prices
+{
+    display: flex;
+    gap: 24px;
+}
+.product .product-prices .product-price-new
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.product .product-prices .product-price-old
+{
+    color:#8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.product h5
+{
+    font-family: "Poppins", sans-serif;
+}
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .product .product-img img
+    {
+        width: 280px;
+    }
+}
