@@ -3,22 +3,29 @@
 .product
 {
     border: 1px solid rgb(176, 162, 162);
-    width: 290px;
+    width: 250px;
     padding: 6px;
     border-radius: 8px;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.product a
+{
+    text-decoration: none;
+    color: black;
 }
 .product .product-img img
 {
-    width: 280px;
+    width: 240px;
     height: 300px;
     border-radius: 8px;
 }
+
 .product .product-desc p
 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     color: rgb(32, 31, 31);
 }
 .product .product-prices
@@ -38,15 +45,14 @@
     font-weight: 500;
     text-decoration: line-through;
 }
-.product h5
-{
-    font-family: "Poppins", sans-serif;
-}
+
+
+
 /* Media Queries */
 @media (max-width: 900px) 
 {
     .product .product-img img
     {
-        width: 280px;
+        width: 245px;
     }
 }
