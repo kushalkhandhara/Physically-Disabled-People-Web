@@ -8,6 +8,7 @@
     border-radius: 8px;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
 }
 .product a
 {
