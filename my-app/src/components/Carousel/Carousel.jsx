@@ -12,7 +12,7 @@ export default function Carousel1() {
   return (
     <>
     <div className="carousels">
-      <Carousel fade indicators={false} controls={false}>
+      <Carousel fade indicators={false} controls={false} interval={1000}>
         
         <Carousel.Item>
               <div className="carousel-img1"> 

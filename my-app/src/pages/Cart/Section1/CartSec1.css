@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.cartsec1 .cartsec1-table
+{
+    width: 900px;
+    overflow-x: scroll;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+.cartsec1 .cartsec1-table table
+{  
+    width:100%;
+    border: 1px solid grey;
+}
+.cartsec1 .cartsec1-table table,th,td
+{
+    border: 1px solid grey;
+
+}
+.cartsec1 .cartsec1-table table tr th
+{
+    padding: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(57, 57, 57);
+}
+.cartsec1 .cartsec1-table table td
+{
+    text-align: center;
+}
+
+.cartsec1 .cartsec1-table table .cartproimg
+{
+    width: 100px;
+    padding: 10px 0px;
+}
+.cartsec1 .cartsec1-table table .quan-box
+{
+    margin: auto;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(213, 213, 213);
+    width: 48px;
+    
+}
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .cartsec1 .cartsec1-table
+    {
+        width: 300px;
+        /* overflow-x: scroll; */
+        /* margin: auto; */
+    }
+
+}
