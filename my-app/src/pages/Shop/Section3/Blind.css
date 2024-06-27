@@ -1,0 +1,17 @@
+.blind
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 86px;
+}
+.blind-header
+{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    text-align: center;
+}
+.blind .products-container .react-multi-carousel-item 
+{
+    padding: 0px 50px;
+
+}

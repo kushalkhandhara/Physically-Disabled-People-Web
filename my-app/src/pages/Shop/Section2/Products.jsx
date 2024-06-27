@@ -16,7 +16,6 @@ export default function Products() {
           <Product id="2" name="Smart Wheel Chair" image = {Smart} desc="Helps blind people walk safely with our user-friendly cane." oldPrice="45" newPrice="40" />
           <Product name="Smart Goggles" image = {Eyes} desc="Helps blind people walk safely with our user-friendly cane." oldPrice="45" newPrice="40"/>
           <Product  name="Smart Goggles" image = {Legs} desc="Helps blind people walk safely with our user-friendly cane." oldPrice="45" newPrice="40"/>
-
         </div>
     </div>
   )

@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import bs from "../../../../assets/BlindStick.png"
 import bs1 from "../../../../assets/sb3.jpg"
 import bs2 from "../../../../assets/blind.jpg"
+import bs3 from "../../../../assets/smartBlind.jpg"
 import { IoIosStar } from "react-icons/io";
 import { FaCartPlus } from "react-icons/fa";
 
@@ -20,6 +21,9 @@ export default function ImageDisplay()
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={bs2} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={bs3} alt="" />
                 </Carousel.Item>
             </Carousel>
         </div>
