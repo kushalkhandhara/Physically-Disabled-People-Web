@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.disablity-card
+{
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgb(189, 189, 189);
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.disablity-card .disablity-card-header h4
+{
+    font-family:"Playfair Display", serif;
+    font-weight: 200;
+    color: rgb(44, 44, 44);
+}
+.disablity-card .disablity-card-header h6
+{
+    font-family: "PT Serif", serif;
+    font-weight: 150;
+    color: rgb(84, 80, 80);
+}
+.disablity-card .disablity-card-para
+{
+    padding-left: 12px;
+    margin-top: 20px;
+}
+.disablity-card .disablity-card-para p
+{
+    line-height: 1.2;
+    color: rgb(120, 117, 117);
+    font-size: 14px;
+}
+.disablity-card .dis-btn button
+{
+    /* padding-bottom:8px; */
+    /* font-size: 15x; */
+    font-size: 15px;
+    background: none;
+    outline: none;
+    border: none;
+}
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .disablity-card
+    {
+        /* width: 400px; */
+        height: 350px;
+        /* border: 1px solid rgb(189, 189, 189); */
+        /* overflow: hidden; */
+        /* border-radius: 4px; */
+        /* padding: 10px; */
+    }
+
+}

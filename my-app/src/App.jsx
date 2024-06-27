@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
 import Shop from "./pages/Shop/Shop"
 import ProductDisplay from "./pages/Shop/Section2/ProductDisplay"
+import Research from "./pages/Research/Research"
+import Cart from "./pages/Cart/Cart"
 function App() {
 
 
@@ -16,6 +18,8 @@ function App() {
           <Route path="/shop" element={<Shop/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/product/:productId" element={<ProductDisplay/>} />
+          <Route path="/disablity" element ={<Research/>} />
+          <Route path="/cart" element={<Cart/>} />
         </Routes>
       {/* <Footer/> */}
     </>

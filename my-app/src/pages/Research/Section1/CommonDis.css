@@ -1,0 +1,44 @@
+.common-dis
+{
+    margin-top: 76px;
+    width: 100%;
+    overflow: hidden;
+    /* padding-bottom: 20px; */
+}
+.common-dis .common-dis-header 
+{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    text-align: center;
+}
+.common-dis .common-dis-cards
+{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .common-dis .common-dis-cards
+    {
+        justify-content: center;
+    }
+}
+@media (max-width: 1024px) 
+{
+    .common-dis .common-dis-cards
+    {
+        justify-content: center;
+    }
+    .common-dis .common-dis-header h2
+    {
+        font-size: 21px;
+        /* font-family: "PT Serif", serif; */
+        /* font-weight: 700; */
+        /* text-align: center; */
+    }
+
+}

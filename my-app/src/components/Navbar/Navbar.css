@@ -7,7 +7,7 @@ header .navbar{
     overflow: hidden;
     position: absolute;
     background-color: white;
-    z-index: 1000;
+    z-index: 100000;
     padding: 0px;
 }
 
