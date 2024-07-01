@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.disablitydesc
+{
+    width: 100%;
+    padding-top: 145px;
+    overflow: hidden;
+}
+.disablitydesc .disablity-main
+{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.disablitydesc .disablity-main .disablity-side1 .disab-images
+{
+    width: 500px;
+    overflow: hidden;
+}
+.disablitydesc .disablity-main .disablity-side1 .disab-images .carousel .carousel-item
+{
+    width:450px;
+    background-color: white;
+    overflow: hidden;
+}
+.disablitydesc .disablity-main .disablity-side1 .disab-images .carousel .carousel-item img
+{
+    width: 100%;
+    height: 400px;
+    object-fit:contain;
+}
+.disablitydesc .disablity-main .disablity-descrip
+{
+    width: 620px;
+    overflow: hidden;
+}
+.disablitydesc .disablity-main .disablity-descrip .disab-header h4
+{
+    font-family: "PT Serif", serif;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 21px;
+}
+.disablitydesc .disablity-main .disablity-descrip .disab-para 
+{
+    line-height: 1.2;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+/* Section 2 */
+.disab-products
+{
+    margin-top: 70px;
+}
+.disab-products h4
+{
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+.disab-products .disablity-products
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+@media (max-width: 1024px) 
+{
+    .disablitydesc .disablity-main
+    {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .disablitydesc .disablity-main .disablity-side1 
+    {
+        width: 100%;
+    }
+    .disablitydesc .disablity-main .disablity-side1 .disab-images
+    {
+        width: 100%;
+    }
+    .disablitydesc .disablity-main .disablity-descrip
+    {
+        width: 100%;
+    }
+    .disablitydesc .disablity-main .disablity-side1 .disab-images .carousel .carousel-item
+    {
+        width: 100%;
+    }
+
+}
+@media (max-width: 900px) 
+{
+    .disablitydesc .disablity-main
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .disablitydesc .disablity-main .disablity-side1 
+    {
+        width: 100%;
+    }
+    .disablitydesc .disablity-main .disablity-side1 .disab-images
+    {
+        width: 100%;
+    }
+    .disablitydesc .disablity-main .disablity-descrip
+    {
+        width: 100%;
+    }
+    .disablitydesc .disablity-main .disablity-side1 .disab-images .carousel .carousel-item
+    {
+        width: 100%;
+    }
+    /* Section 2 */
+    .disab-products h4
+    {
+        padding: 0px 40px;
+    }
+}

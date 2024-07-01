@@ -29,7 +29,7 @@ export default function CartSec1() {
                     <td>10$</td>
                     <td>20$</td>
                     <td>
-                        <MdDelete size={30}/>
+                        <MdDelete size={30} style={{cursor:"pointer"}}/>
                     </td>
                 </tr>
                 <tr>
@@ -47,7 +47,7 @@ export default function CartSec1() {
                     <td>10$</td>
                     <td>20$</td>
                     <td>
-                        <MdDelete size={30}/>
+                        <MdDelete size={30} style={{cursor:"pointer"}}/>
                     </td>
                 </tr>
                 <tr>
@@ -65,11 +65,10 @@ export default function CartSec1() {
                     <td>10$</td>
                     <td>20$</td>
                     <td>
-                        <MdDelete size={30}/>
+                        <MdDelete size={30} style={{cursor:"pointer"}}/>
                     </td>
                 </tr>
             </table>
-
         </div>
     </div>
   )
