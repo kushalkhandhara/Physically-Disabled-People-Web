@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./DisablityCard.css";
 
 export default function DisablityCard() {
@@ -18,7 +19,7 @@ export default function DisablityCard() {
 
         </div>
         <div className="dis-btn">
-            <button>Read More</button>
+            <Link to="/disablity/1"><button>Read More</button></Link>
         </div>
     </div>
   )

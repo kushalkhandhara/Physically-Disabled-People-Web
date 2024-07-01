@@ -7,6 +7,8 @@ import Shop from "./pages/Shop/Shop"
 import ProductDisplay from "./pages/Shop/Section2/ProductDisplay"
 import Research from "./pages/Research/Research"
 import Cart from "./pages/Cart/Cart"
+import DisablityDesc from "./pages/Research/Disablity-Desc/DisablityDesc"
+import Contact from "./pages/Contact/Contact"
 function App() {
 
 
@@ -17,11 +19,13 @@ function App() {
           <Route path="/" element={<Home  />} />
           <Route path="/shop" element={<Shop/>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/product/:productId" element={<ProductDisplay/>} />
+          <Route path="/contact" element={<Contact/>} />
           <Route path="/disablity" element ={<Research/>} />
           <Route path="/cart" element={<Cart/>} />
+          <Route path="/product/:productId" element={<ProductDisplay/>} />
+          <Route path="/disablity/:disablityId" element={<DisablityDesc/>} />
         </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,70 @@
+.cartsec2
+{
+    margin-top: 96px;
+    font-family: "Poppins", sans-serif;
+}
+.cartsec2 .cartsec2-main .cartsec2-side1 .cartsec2-side1-header h2
+{
+    font-weight: 605;
+}
+.cartsec2 .cartsec2-main .cartsec2-side1 .bill .bill-total
+{
+    display: flex;
+    border-bottom: 2px solid rgb(193, 193, 193);
+}
+.cartsec2 .cartsec2-main .cartsec2-side1 .bill .bill-total .total-title
+{
+    flex:1;
+}
+.cartsec2 .cartsec2-main .cartsec2-side1 .bill .bill-btn button
+{
+    border: none;
+    outline: none;
+    padding: 17px;
+    background-color: tomato;
+    color: white;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+.cartsec2 .cartsec2-main .cartsec2-side2 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartsec2 .cartsec2-main .cartsec2-side2 .promoinputs
+{   
+    display: flex;
+}
+.cartsec2 .cartsec2-main .cartsec2-side2 .promoinputs .promocode-inp input
+{
+    /* flex: 1; */
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size:14px;
+    width: 230px;
+    height: 35px;
+    background: #eaeaea;
+    padding-left: 10px;
+}
+.cartsec2 .cartsec2-main .cartsec2-side2 .promoinputs .inpbtn button
+{
+    height: 35px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+}
+
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .cartsec2 .cartsec2-main .cartsec2-side2 
+    {
+        margin-top: 30px;
+    }
+}

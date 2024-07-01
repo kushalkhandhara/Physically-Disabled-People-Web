@@ -6,7 +6,7 @@ header .navbar{
     width: 100%;
     overflow: hidden;
     position: absolute;
-    background-color: white;
+    background-color: rgb(251, 251, 251);
     z-index: 100000;
     padding: 0px;
 }
