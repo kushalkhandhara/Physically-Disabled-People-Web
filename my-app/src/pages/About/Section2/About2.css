@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.about2
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 76px;
+    background-color: rgb(237, 237, 237);
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 60px;
+}
+.about2 .about2-header
+{
+    text-align: center;
+    padding-top: 60px ;
+    color: rgb(0, 4, 79);
+}
+.about2 .about2-header h2
+{
+    line-height: 1.5;
+    font-weight: 600;
+}
+.about2 .about2-para
+{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 0px 50px;
+}
+.about2 .about2-counter
+{
+    padding-top: 40px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+} 
+.about2 .about2-counter .about2-counter1
+{
+    width:215px;
+    padding-right: 1px;
+    overflow: hidden;
+    border-right:2px solid rgb(216, 216, 216);
+}
+.about2 .about2-counter .about2-counter1 .percfam
+{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Media Queries */
+@media (max-width: 1024px) 
+{
+    .about2 .about2-counter
+    {
+        flex-direction: column;
+        /* padding-top: 40px; */
+        /* display: flex; */
+        gap: 20px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .about2 .about2-counter .about2-counter1
+    {
+        width:195px;
+        padding-right: 0px;
+        border-right:0px solid rgb(216, 216, 216);
+    }
+
+}
+@media (max-width: 900px) 
+{
+    .about2 .about2-para
+    {
+        line-height: 1.5;
+        padding: 0px 12px;
+    }
+    .about2 .about2-counter
+    {
+        flex-direction: column;
+        /* padding-top: 40px; */
+        /* display: flex; */
+        gap: 20px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .about2 .about2-counter .about2-counter1
+    {
+        width:185px;
+        padding-right: 0px;
+        border-right:0px solid rgb(216, 216, 216);
+    }
+
+}
