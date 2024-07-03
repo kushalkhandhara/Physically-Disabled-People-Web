@@ -42,7 +42,7 @@
     color: white;
     text-align: center;
 }
-.heroImg .content h3
+.heroImg .content h4
 {
     font-family:"Playfair Display", serif;
     font-weight: 600;
@@ -85,6 +85,10 @@
 /* Media Queries */
 @media (max-width: 900px) 
 {
+    .heroImg .content
+    {
+        text-align: center;
+    }
     .heroImg .content h2
     {
         font-size: 20px;

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.ngo
+{
+    display: flex;
+    gap: 40px;
+    border: 1px solid rgb(165, 165, 165);
+    padding: 8px;
+    border-radius: 8px;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(250, 244, 244);
+}
+.ngo .ngo-img
+{
+    width: 320px;
+    border-radius: 8px;
+}
+.ngo .ngo-img img 
+{
+    object-fit: cover;
+    width: 320px;
+    height: 205px;
+    border-radius: 8px;
+}
+.ngo .ngo-desc
+{
+    width: 600px;
+}
+.ngo .ngo-desc .ngo-header
+{
+    line-height: 0.6;
+}
+.ngo .ngo-desc .ngo-header p
+{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.ngo .ngo-desc .ngo-para 
+{
+    margin-top: 5px;
+}
+.ngo .ngo-desc .ngo-para p
+{
+    line-height: 1.3;
+    font-size: 13px;
+    color: rgb(92, 92, 92);
+}
+.ngo .ngo-desc .apply 
+{
+    text-align: right;
+
+}
+.ngo .ngo-desc .apply button
+{
+    border: none;
+    outline: none;
+    background-color: rgb(60, 184, 60);
+    font-size: 13px;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+
+}
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .ngo
+    {
+        flex-direction: column;
+        /* display: flex; */
+        /* gap: 40px; */
+        /* border: 1px solid rgb(165, 165, 165); */
+        /* padding: 8px; */
+        /* border-radius: 8px; */
+        width: 100%;
+        /* font-family: "Poppins", sans-serif; */
+    }
+    .ngo .ngo-img
+    {
+        /* width: 320px; */
+        width: 100%;
+        /* border-radius: 8px; */
+    }
+    .ngo .ngo-img img 
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 205px;
+        /* border-radius: 8px; */
+    }
+    .ngo .ngo-desc
+    {
+        width: 100%;
+    }
+
+}

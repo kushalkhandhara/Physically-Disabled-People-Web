@@ -9,7 +9,7 @@ import About4 from "./Section4/About4";
 export default function About() {
   return (
     <div className="about">
-      <HeroImg image ={AboutImg} title="About Us" data="para" />
+      <HeroImg image ={AboutImg} title="About Us" data="para" paragraph="Our mission is straightforward yet profound: to empower individuals with physical disabilities and ensure they have the resources and support needed to lead fulfilling lives. We believe that every person, regardless of their physical abilities, deserves equal opportunities and access to participate fully in society." />
       <About1/>
       <About2/>
       <About3/>

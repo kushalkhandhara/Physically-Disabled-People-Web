@@ -1,0 +1,13 @@
+.volunteer2
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 76px;
+}
+.volunteer2 .ngos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}

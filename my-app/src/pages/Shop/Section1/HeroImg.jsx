@@ -13,12 +13,12 @@ export default function HeroImg(props)
             <img src={props.image}  className="into-img"  alt="" />
         </div>
         <div className="content">
-            <h3>{props.title}</h3>
+            <h4>{props.title}</h4>
             {
             props.data === "para" ? 
             (
-                <div className="para px-lg-2 mt-3">
-                    <p>Our mission is straightforward yet profound: to empower individuals with physical disabilities and ensure they have the resources and support needed to lead fulfilling lives. We believe that every person, regardless of their physical abilities, deserves equal opportunities and access to participate fully in society.</p>
+                <div className="para mt-4">
+                    <p>{props.paragraph}</p>
                 </div>
             ) : <div className="form">
                     <form action="" onSubmit={handleSubmit}>

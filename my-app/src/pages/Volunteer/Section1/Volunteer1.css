@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.volunteer1
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 76px;
+    margin-bottom: 76px;
+}
+.volunteer1 .volunteer-inputs
+{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+.volunteer1 .volunteer-inputs .volunteer-ip
+{
+    flex: 1;
+}
+.volunteer1 .volunteer-inputs .volunteer-ip .volunteer-input
+{
+    position: relative;
+}
+.volunteer1 .volunteer-inputs .volunteer-ip .volunteer-input svg
+{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);;
+    left: 6px;
+    color: grey;
+}
+.volunteer1 .volunteer-inputs .volunteer-ip .volunteer-label
+{
+    color: rgb(31, 31, 31);
+}
+.volunteer1 .volunteer-inputs .volunteer-ip .volunteer-input input
+{
+    width: 80%;
+    height: 42px;
+    border: 1px solid rgb(0, 0, 45);
+    outline: none;
+    border-radius: 25px;
+}
+.volunteer1 .volunteer-inputs .volunteer-ip .volunteer-input input::placeholder
+{
+    padding-left: 8px;
+}
+.volunteer1 .volunteer-inputs .volunteer-ip .volunteer-input input[type="text"]
+{
+    padding-left: 34px;
+    font-size: 15px;
+}
+.volunteer1 .volunteer-inputs .volunteer-ip .volunteer-input input:focus
+{
+    border: 1px solid rgb(19, 112, 0);
+}
+.volunteer1 form .submit-btn 
+{
+    text-align: center;
+}
+/* .volunteer1 form .submit-btn button
+{
+    border: none;
+    outline: none;
+    background-color: rgb(77, 77, 255);
+    color: white;
+    padding: 6px 10px;
+} */
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .volunteer1 .volunteer-inputs
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .volunteer1 .volunteer-inputs .volunteer-ip .volunteer-input input
+    {
+        width: 95%;
+        /* height: 42px;
+        border: 1px solid rgb(0, 0, 45);
+        outline: none;
+        border-radius: 25px; */
+    }
+}
