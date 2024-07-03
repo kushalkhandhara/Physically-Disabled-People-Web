@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.volunteerdisplay
+{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 145px;
+    font-family: "Poppins", sans-serif;
+}
+.volunteerdis
+{
+    display: flex;
+    gap: 60px;
+}
+.volunteerdis .volunteer-img
+{
+    width: 400px;
+}
+.volunteerdis .volunteer-img img
+{
+    width: 398px;
+    height: 400px;
+    object-fit: cover;
+}
+.volunteerdis .volunteer-desc 
+{
+    width: 600px;
+}
+.volunteerdis .volunteer-desc .volunteer-heading h6
+{
+    color: gray;
+    font-weight: 300;
+}
+.volunteerdis .volunteer-desc .volunteer-para
+{
+    color: rgb(90, 90, 90);
+    font-size: 13px;
+    line-height:1.4;
+}
+.volunteerdis .volunteer-desc .ngo-detail
+{
+    color: gray;
+    cursor: pointer;
+}
+.volunteerdis .volunteer-desc .ngo-detail span
+{
+    font-size: 15px;
+
+}
+.volunteerdisplay .form-fill
+{
+    margin-top: 76px;
+}
+.volunteerdisplay .form-fill .form-header
+{
+    text-align: center;
+
+}
+.volunteerdisplay .form-fill .form-header h3
+{
+    font-weight: 600;
+    color: rgb(3, 13, 154);
+    margin-bottom: 40px;
+
+}
+.volunteerdisplay .form-fill .volun-form-inp
+{
+    margin-bottom: 8px;
+}
+.volunteerdisplay .form-fill .form-main 
+{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.volunteerdisplay .form-fill .form-main .form-img-vol
+{
+    width: 550px;
+    overflow: hidden;
+}
+.volunteerdisplay .form-fill .form-main .form-side
+{
+    width: 600px;
+    padding-left: 20px;
+}
+.volunteerdisplay .form-fill .form-main .form-side form .volun-form-inp
+{
+    margin-bottom: 15px;
+}
+.volunteerdisplay .form-fill .form-main .form-side form .volun-form-inp .volun-input input
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    outline: none;
+}
+.volunteerdisplay .form-fill .form-main .form-side .volun-form-inp .volun-label
+{
+    margin-bottom: 4px;
+
+}
+.volunteerdisplay .form-fill .form-main .form-side form .volun-form-inp .volun-input input[type="text"]
+{
+    padding-left: 20px;
+}
+.volunteerdisplay .form-fill .form-main .form-side form .volun-form-inp .volun-input input[type="date"]
+{
+    padding: 20px;
+}
+.volunteerdisplay .form-fill .form-main .form-side form .volun-submit button
+{
+    border: none;
+    outline: none;
+    padding: 6px 18px;
+    color: white;
+    background-color: rgb(240, 173, 1);
+    border-radius: 10px;
+}
+.volunteerdisplay .form-fill .form-main .form-side form .volun-form-inp .volun-input input[type="email"]
+{
+    padding-left: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 900px) 
+{
+    .volunteerdis
+    {
+        flex-direction: column;
+        /* display: flex;
+        gap: 60px; */
+    }
+    .volunteerdis .volunteer-img
+    {
+        width: 100%;
+    }
+    .volunteerdis .volunteer-img img
+    {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .volunteerdis .volunteer-desc 
+    {
+        width: 100%;
+    }
+    .volunteerdisplay .form-fill .form-main 
+    {
+        flex-direction: column;
+    }
+    .volunteerdisplay .form-fill .form-main .form-img-vol
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+    .volunteerdisplay .form-fill .form-main .form-side
+    {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+}
