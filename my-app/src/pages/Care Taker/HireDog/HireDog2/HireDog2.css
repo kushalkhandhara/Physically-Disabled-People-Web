@@ -1,0 +1,30 @@
+.hiredog2
+{
+    margin-top: 76px;
+    width: 100%;
+    overflow: hidden;
+}
+.hiredog2 .hiredog2-header
+{
+    text-align: center;
+    font-family:"PT Serif", serif;
+    color: rgb(0, 0, 128);
+}
+.hiredog2 .hiredog2-container .react-multi-carousel-item 
+{
+    padding: 0px 60px;
+}
+@media (max-width: 1024px)
+{
+    .hiredog2 .hiredog2-container .react-multi-carousel-item 
+    {
+        padding: 0px 40px;
+    }
+}
+@media (max-width: 900px)
+{
+    .hiredog2 .hiredog2-container .react-multi-carousel-item 
+    {
+        padding: 0px 45px;
+    }
+}

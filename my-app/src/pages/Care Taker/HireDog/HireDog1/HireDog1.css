@@ -1,0 +1,20 @@
+.hiredog1
+{
+    width: 100%;
+    margin-top: 76px;
+    overflow: hidden;
+}
+.hiredog1 .hiredog1-header
+{ 
+    text-align: center;
+    font-family:"PT Serif", serif;
+    color: rgb(0, 0, 128);
+}
+.hiredog1 .hiredog1-cards
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
