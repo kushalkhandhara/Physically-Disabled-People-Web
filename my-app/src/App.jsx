@@ -12,6 +12,7 @@ import Contact from "./pages/Contact/Contact"
 import Volunteer from "./pages/Volunteer/Volunteer"
 import VolunteerDis from "./pages/Volunteer/Section2/VolunteerDis/VolunteerDis"
 import CareTaker from "./pages/Care Taker/CareTaker"
+import HireDog from "./pages/Care Taker/HireDog/HireDog"
 function App() {
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/cart" element={<Cart/>} />
           <Route path="/volunteer" element={<Volunteer/>} />
           <Route path="/caretaker" element={<CareTaker/>} />
+          <Route path="/hiredog" element={<HireDog/>} />
           <Route path="/product/:productId" element={<ProductDisplay/>} />
           <Route path="/disablity/:disablityId" element={<DisablityDesc/>} />
           <Route path="/volunteer/:volunteerId" element={<VolunteerDis/>}  />

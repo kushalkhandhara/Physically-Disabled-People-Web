@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.caretaker2
+{
+    width: 100%;
+    margin-top: 76px;
+    overflow: hidden;
+}
+.caretaker2 .caretaker2-header
+{ 
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+.caretaker2 .caretaker2-main
+{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.caretaker2 .caretaker2-main .caretaker2-side1
+{
+    width: 500px;
+    overflow: hidden;
+}
+.caretaker2 .caretaker2-main .caretaker2-side1 img
+{
+    width: 500px;
+}
+.caretaker2 .caretaker2-main .caretaker2-side2
+{
+    width: 600px;
+}
+.caretaker2 .caretaker2-main .caretaker2-side2 .caretaker2-side2-header h4
+{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(58, 55, 55);
+}
+
+.caretaker2 .caretaker2-main .caretaker2-side2 .caretaker2-side2-para
+{
+    line-height: 1.3;
+    color: rgb(89, 89, 89);
+    /* font-size: 16px; */
+}
+
+
+
+/* Button Design */
+.caretaker2 .caretaker2-main .caretaker2-side2 button
+{
+    width: 13.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: rgba(238, 186, 0, 0.913);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.caretaker2 .caretaker2-main .caretaker2-side2 button:hover
+{
+    color: black;
+
+}
+.caretaker2 .caretaker2-main .caretaker2-side2 button:after {
+    content: "";
+    /* color: black; */
+    background-color: greenyellow;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+   
+.caretaker2 .caretaker2-main .caretaker2-side2 button:hover:after 
+{
+    
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    /* color: black; */
+}
+/* Button Design Ends */
