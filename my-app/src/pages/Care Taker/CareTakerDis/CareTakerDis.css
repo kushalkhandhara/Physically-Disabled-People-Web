@@ -1,0 +1,209 @@
+.caretakerdis
+{
+    width: 100%;
+    padding-top: 138px;
+    overflow: hidden;
+}
+.caretakerdis .caretakerdis-main 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.caretakerdis .caretakerdis-main .caretakerdis-side1
+{
+    width: 500px;
+    overflow: hidden;
+}
+.caretakerdis .caretakerdis-main .caretakerdis-side1 img
+{
+    width: 500px;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+.caretakerdis .caretakerdis-main .caretakerdis-side2
+{
+    width: 600px;
+}
+.caretakerdis .caretakerdis-main .caretakerdis-side2 .caretakerdis-side2-header
+{
+    font-family: "PT Serif", serif;
+    color: rgb(27, 27, 27);
+}
+.caretakerdis .caretakerdis-main .caretakerdis-side2 .caretakerdis-side2-para
+{
+    font-size: 14px;
+    line-height: 1.3;
+    color: rgb(41, 40, 40);
+}
+.caretakerdis .caretakerdis-main .caretakerdis-side2 .caretaker-price h5 b
+{
+    color: red;
+}
+.caretakerdis .get-caretaker
+{
+    margin-top: 76px;
+}
+/* Care Taker Forms ans Notes*/
+.caretakerdis .get-caretaker .caretaker-form-main
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+/* Note  */
+.caretakerdis .get-caretaker .caretaker-form-main .caretaker-note
+{
+    width: 500px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+    padding: 10px;
+}
+.caretakerdis .get-caretaker .caretaker-form-main .caretaker-note .caretaker-note-header
+{
+    color: rgb(33, 0, 117);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.caretakerdis .get-caretaker .caretaker-form-main .caretaker-note .caretaker-note-para
+{
+    width: 470px;
+}
+.caretakerdis .get-caretaker .caretaker-form-main .caretaker-note .caretaker-note-para ul
+{
+    line-height: 1.3;
+    font-size: 14px;
+}
+.caretakerdis .get-caretaker .caretaker-form-main .caretaker-note .caretaker-note-para ul li
+{
+    margin-bottom :8px;
+}
+/* Note Ends */
+
+/* Care Taker Form Details */
+.caretakerdis .get-caretaker  .caretaker-form-main .caretaker-form 
+{
+    /* border: 1px solid black; */
+    width: 500px;
+}
+.caretakerdis .get-caretaker .caretaker-form 
+{
+    padding-left: 40px;
+}
+
+
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip
+{
+    margin-top: 14px;
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip .caretaker-label
+{
+    padding-left: 8px;
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip .caretaker-days-count
+{
+    padding-left: 16px;
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip input[type="text"]
+{
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 12px;
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip input:focus
+{
+    border: 1px solid rgb(222, 177, 1);
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip textarea:focus
+{
+    border: 1px solid rgb(222, 177, 1);
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip input[type="email"]:focus
+{
+    border: 1px solid rgb(222, 177, 1);
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip input[type="email"]
+{
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 12px;
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip input[type="date"]
+{
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    padding: 12px;
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-ip textarea
+{
+    width: 100%;
+    resize: none;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 12px;
+}
+.caretakerdis .get-caretaker .caretaker-form form .caretaker-btn button
+{
+    background: rgb(222, 177, 1);
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+/* Media Queries */
+@media (max-width:900px)
+{
+    .caretakerdis .caretakerdis-main 
+    {
+        flex-direction: column;
+    }
+    .caretakerdis .caretakerdis-main .caretakerdis-side1
+    {
+        width: 100%;
+    }
+    .caretakerdis .caretakerdis-main .caretakerdis-side1 img
+    {
+        width: 100%;
+        /* object-fit: cover; */
+        /* overflow: hidden; */
+    }
+    .caretakerdis .caretakerdis-main .caretakerdis-side2
+    {
+        width: 100%;
+    }
+    .caretakerdis .get-caretaker .caretaker-form-main
+    {
+        flex-direction: column-reverse;
+    }
+    .caretakerdis .get-caretaker .caretaker-form-main .caretaker-note
+    {
+        width: 100%;
+    }
+    .caretakerdis .get-caretaker .caretaker-form-main .caretaker-note .caretaker-note-para
+    {
+        width: 100%;
+    }
+    .caretakerdis .get-caretaker  .caretaker-form-main .caretaker-form 
+    {
+        width: 100%;
+    }
+    .caretakerdis .get-caretaker .caretaker-form 
+    {
+        padding-left: 0px;
+    }
+
+
+}

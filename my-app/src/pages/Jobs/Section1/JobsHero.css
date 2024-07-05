@@ -1,0 +1,101 @@
+.jobs-hero 
+{
+    padding-top: 100px;
+    /* background: linear-gradient(180deg,rgba(93, 181, 253, 0.895),rgb(183, 223, 255), #ffffff22 100%); */
+    background: linear-gradient(180deg,rgba(135, 201, 255, 0.895), #ffffff22 100%);
+    width: 100%;
+    /* height: 100vh; */
+    overflow: hidden;
+}
+.jobs-hero .jobs-hero-main
+{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 30px;
+    /* flex-wrap: wrap; */
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1
+{
+    width: 540px;
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-hero-side1-header
+{
+    padding-top: 120px;
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-hero-side1-header h1
+{
+    color: rgb(57, 57, 57);
+    line-height: 1.7;
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-hero-side1-header h1 b
+{
+    color: rgb(0, 95, 178);
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-hero-side1-header p
+{
+    color: gray;
+    font-weight: 550;
+}
+
+/* Search Bar */
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-searchbar
+{
+    /* background-color: white; */
+    position: relative;
+    width: 450px;
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-searchbar input
+{
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    /* border: 1px solid gray; */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-searchbar svg
+{
+    position: absolute;
+    top: 23px;
+    left: 14px;
+    font-size: 18px;
+    font-weight:900;
+    color: gray;
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-searchbar input
+{
+    padding-left: 48px;
+    padding-right: 100px;
+}
+.jobs-hero .jobs-hero-main .jobs-hero-side1 .jobs-searchbar .button
+{
+    position: absolute;
+    top: 8.5px;
+    right: 9px;
+    border: none;
+    outline: none;
+    background-color: rgb(7, 139, 255);
+    padding:  10px 15px;
+    color: white;
+    border-radius: 6px;
+}
+
+
+/* Ends Search bar */
+.jobs-hero  .jobs-hero-side2 .jobs-hero-side2-img
+{
+  
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+}
+.jobs-hero  .jobs-hero-side2 .jobs-hero-side2-img img
+{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    overflow: hidden;
+}

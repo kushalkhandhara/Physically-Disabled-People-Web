@@ -85,7 +85,6 @@
     transform: skewX(-45deg) scale(0, 1);
     transition: all 0.5s;
 }
-   
 .caretaker2 .caretaker2-main .caretaker2-side2 button:hover:after 
 {
     
@@ -95,3 +94,30 @@
     /* color: black; */
 }
 /* Button Design Ends */
+
+@media (max-width:900px)
+{
+    .caretaker2 .caretaker2-main
+    {
+        flex-direction: column-reverse;
+        /* margin-top: 40px; */
+        /* display: flex; */
+        /* gap: 40px; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .caretaker2 .caretaker2-main .caretaker2-side1
+    {
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    .caretaker2 .caretaker2-main .caretaker2-side1 img
+    {
+        width: 100%;
+    }
+    .caretaker2 .caretaker2-main .caretaker2-side2
+    {
+        width: 100%;
+    }
+
+}
