@@ -1,0 +1,88 @@
+.popular-job-card
+{
+    width: 260px;
+    height: 380px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 10px;
+    overflow: hidden;
+}
+.popular-job-card .popular-job-header
+{
+    overflow: hidden;
+}
+.popular-job-card .popular-job-header .popular-job-img
+{
+    width: 120px;
+    height: 100px;
+    margin: 0 auto;
+}
+.popular-job-card .popular-job-header .popular-job-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.popular-job-card .popular-job-header h6
+{
+    /* font-family: "PT Serif", serif; */
+    /* color: rgba(48, 48, 48, 0.954); */
+    color: rgb(33, 33, 33);
+}
+.popular-job-card .popular-job-header h3
+{
+    /* font-family: "PT Serif", serif; */
+    /* color: rgba(48, 48, 48, 0.954); */
+    color: rgb(0, 120, 184);
+}
+
+.popular-job-card .popular-job-desc h4
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(81, 81, 81);
+}
+.popular-job-card .popular-job-desc p
+{
+    line-height: 1.2;
+    font-size: 9.5px;
+    color: gray;
+}
+.popular-job-card .popular-job-desc .popular-job-location
+{
+    margin-bottom: 5px;
+}
+.popular-job-card .popular-job-desc .popular-job-location p
+{
+    margin-bottom:1px;
+    color: rgb(96, 95, 95);
+    font-size: 12px;
+    font-weight: 500;
+}
+.popular-job-card .job-apply-btn
+{
+    text-align: center;
+}
+.popular-job-card .job-apply-btn button
+{
+    background-image: linear-gradient(rgb(0, 221, 255), rgb(65, 97, 255));
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    padding: 6px 6px;
+}
+
+@media (max-width: 900px) 
+{
+    .popular-job-card
+    {
+        width: 243px;
+        height: 380px;
+        border: 1px solid grey;
+        border-radius: 6px;
+        padding: 10px;
+        overflow: hidden;
+    }
+}

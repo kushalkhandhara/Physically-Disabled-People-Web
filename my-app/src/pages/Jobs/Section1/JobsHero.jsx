@@ -5,9 +5,9 @@ import { FaSearch } from "react-icons/fa";
 export default function JobsHero() {
   return (
     <div className="jobs-hero ">
-        <div className="container"> 
+        <div className="jobs-hero-main container"> 
             
-            <div className="jobs-hero-main">
+            {/* <di className="jobs-hero-main"> */}
                 <div className="jobs-hero-side1 ">
                     <div className="jobs-hero-side1-header ">
                         <h1>
@@ -32,7 +32,7 @@ export default function JobsHero() {
                         <img src={jobsHeroImg} className="img-fluid" alt="" />
                     </div>
                 </div>
-            </div>
+            {/* </di> */}
 
         </div>
 
