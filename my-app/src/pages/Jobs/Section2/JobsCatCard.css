@@ -1,0 +1,67 @@
+.jobs-category-card
+{
+    padding: 8px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 310px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.jobs-category-card.hovered 
+{
+    border: 1px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* Job Icon Starts */
+.jobs-category-card .jobs-category-icon
+{
+    /* font-size: 50px; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 242, 248);
+    width: 83px;
+    height: 83px;
+    border-radius: 8px;
+    font-weight: lighter;
+}
+
+.jobs-category-card .jobs-category-icon svg
+{
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    color: rgb(28, 129, 252);
+}
+/* .jobs-category-card .jobs-category-icon svg.hovered
+{
+    color: white;
+} */
+.jobs-category-card .jobs-category-icon.hovered
+{
+    background-color: rgb(19, 112, 212);
+    color: white;
+}
+.jobs-category-card .jobs-category-icon.hovered svg
+{
+    color: white;
+}
+
+/* End Jobs Icons */
+
+.jobs-category-card .jobs-categoryCard-header h6
+{
+    flex: 1;
+    /* padding-top: 20px; */
+    color: rgb(53, 53, 53);
+    /* font-size: 15px; */
+}
+.jobs-category-card .jobs-categoryCard-header p
+{
+    color: gray;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 1.6;
+}

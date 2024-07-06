@@ -1,0 +1,26 @@
+.popular-jobs
+{
+    margin-top: 76px;
+    width: 100%;
+    overflow: hidden;
+}
+.popular-jobs .popular-jobs-header
+{
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+.popular-jobs .popular-jobs-header h2 b
+{
+    color: rgb(3, 86, 154);
+}
+.popular-jobs .popular-jobs-cards
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.popular-jobs .popular-jobs-cards .react-multi-carousel-item 
+{
+    padding: 0px 50px;
+}
