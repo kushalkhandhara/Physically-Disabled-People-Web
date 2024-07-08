@@ -19,7 +19,7 @@ export default function DisablityCard() {
 
         </div>
         <div className="dis-btn">
-            <Link to="/disablity/1"><button>Read More</button></Link>
+            <Link to="/disablity/1" onClick={window.scrollTo(0,0)}><button>Read More</button></Link>
         </div>
     </div>
   )

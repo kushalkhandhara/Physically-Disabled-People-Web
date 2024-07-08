@@ -15,6 +15,8 @@ import CareTaker from "./pages/Care Taker/CareTaker"
 import HireDog from "./pages/Care Taker/HireDog/HireDog"
 import CareTakerDis from "./pages/Care Taker/CareTakerDis/CareTakerDis"
 import Jobs from "./pages/Jobs/Jobs"
+import JobApply from "./pages/Jobs/JobApply/JobApply"
+import JobCate from "./pages/Jobs/JobCategory/JobCate"
 function App() {
 
 
@@ -36,8 +38,10 @@ function App() {
           <Route path="/disablity/:disablityId" element={<DisablityDesc/>} />
           <Route path="/volunteer/:volunteerId" element={<VolunteerDis/>}  />
           <Route path="/hiredog/:hiredogId" element={<CareTakerDis/>} />
+          <Route path="/jobs/:jobId" element={<JobApply/>} />
+          <Route path="/jobs/jobCategory/:jobCateId" element={<JobCate/>} />
         </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

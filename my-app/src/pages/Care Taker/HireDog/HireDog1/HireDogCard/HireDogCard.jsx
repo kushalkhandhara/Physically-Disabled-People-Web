@@ -6,12 +6,12 @@ import { IoStarSharp } from "react-icons/io5";
 export default function HireDogCard(props) {
   return (
     <div className="hiredog1-card">
-        <Link to="/hiredog/1">
+        <Link to="/hiredog/1" onClick={window.scrollTo(0,0)}>
             <div className="hiredog1-img">
                 <img src={props.image} className="img-fluid" alt="" />
             </div>
         </Link>
-        <Link to="/hiredog/1">
+        <Link to="/hiredog/1" onClick={window.scrollTo(0,0)}>
         <div className="hiredog1-desc">
             <div className="hiredog1-rating mb-1">
                 <IoStarSharp color="orange"/>
