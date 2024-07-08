@@ -5,11 +5,11 @@ export default function Product(props) {
   return (
     <div className="product">
         <div className="product-img">
-            <Link to={`/product/${props.id}`}>
+            <Link to={`/product/${props.id}`} onClick={window.scrollTo(0,0)}>
                 <img src={props.image} alt="" />
             </Link>
         </div>
-        <Link to={`/product/${props.id}`}>
+        <Link to={`/product/${props.id}`} onClick={window.scrollTo(0,0)}>
             <h6 className="mt-3">{props.name}</h6>
             <div className="product-desc mt-3">
                 <p>

@@ -1,0 +1,19 @@
+.jobcate1
+{
+    margin-top: 76px;
+    width: 100%;
+    overflow: hidden;
+}
+.jobcate1 .jobcate1-header
+{
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+.jobcate1 .jobcate1-cards
+{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

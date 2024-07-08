@@ -1,7 +1,7 @@
+
 import "./PopularJobCard.css";
 import amazon from "../../../assets/Amazon logo.png"
-
-
+import { Link } from "react-router-dom";
 
 export default function PopularJobCard() {
   return (
@@ -30,7 +30,9 @@ export default function PopularJobCard() {
         </div>
 
         <div className="job-apply-btn">
-            <button>Apply Now</button>
+            <Link to="/jobs/1" onClick={window.scrollTo(0,0)}>
+                <button>Apply Now</button>
+            </Link>
         </div>
     </div>
   )

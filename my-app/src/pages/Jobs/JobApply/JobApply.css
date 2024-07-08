@@ -1,0 +1,165 @@
+.jobapply
+{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 135px;
+}
+.jobapply .job-apply-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.jobapply .job-apply-main .jobapply-side1
+{
+    width: 400px;
+    height: 450px;
+}
+.jobapply .job-apply-main .jobapply-side1 img
+{
+    width: 400px;
+    height: 450px;
+    object-fit: contain;
+}
+.jobapply .job-apply-main .jobapply-side2
+{
+    width: 660px;
+}
+.jobapply .job-apply-main .jobapply-side2 .jobapply-side2-header
+{
+    font-family: "PT Serif", serif;
+}
+.jobapply .job-apply-main .jobapply-side2 .jobapply-side2-para
+{
+    color: gray;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.jobapply .job-apply-main .jobapply-side2 .job-salary
+{
+    color: rgb(12, 0, 122);
+}
+
+.jobapply .apply-now-form
+{
+    margin-top: 76px;
+}
+.jobapply .apply-now-form .apply-now-form-header
+{
+    text-align: center;
+    color: rgb(0, 0, 109);
+    font-family: "PT Serif", serif;
+}
+
+.jobapply .apply-now-form .apply-form-main
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1
+{
+    width: 450px;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side2 
+{
+    width: 400px;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side2 img
+{
+    width: 100%;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-ip
+{
+    margin-bottom: 10px;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-ip input
+{
+    width: 100%;
+    height: 36px;
+    border-radius:12px;
+    outline: none;
+    border: 1px solid gray;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-ip input
+{
+    padding-left: 10px;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-ip input[type="file"]
+{
+    padding-left: 4px;
+    padding-top: 2px;
+    /* border: none; */
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-ip .apply-form-label
+{
+    padding-left: 6px;
+    margin-bottom: 3px;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-button
+{
+    margin-top: 12px;
+    padding-left: 8px;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-button .apply-form-submit button
+{
+    padding: 8px 14px;
+    background-color: rgb(253, 171, 20);
+    border-radius: 8px;
+    color:white;
+    border: none;
+}
+.jobapply .apply-now-form .apply-form-main .apply-form-side1 form .apply-form-ip input:focus
+{
+    border: 1px solid rgb(253, 171, 20);
+}
+
+/* Media Queries */
+@media (max-width: 915px) 
+{
+    .jobapply .job-apply-main
+    {
+        flex-direction: column;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap: 10px;
+    }
+    .jobapply .job-apply-main .jobapply-side1
+    {
+        width: 100%;
+        /* width: 400px; */
+        height: 250px;
+    }
+    .jobapply .job-apply-main .jobapply-side1 img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .jobapply .job-apply-main .jobapply-side2
+    {
+        width: 100%;
+    }
+    .jobapply .apply-now-form .apply-form-main
+    {
+        margin-top: 30px;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .jobapply .apply-now-form .apply-form-main .apply-form-side1
+    {
+        width: 100%;
+    }
+    .jobapply .apply-now-form .apply-form-main .apply-form-side2 
+    {
+        width: 100%;
+    }
+
+}

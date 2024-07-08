@@ -1,6 +1,6 @@
-
 import JobsCatCard from "./JobsCatCard";
 import "./JobsCategory.css";
+
 import { AiOutlineAccountBook } from "react-icons/ai";
 import { HiOutlineCodeBracketSquare } from "react-icons/hi2";
 import { ImUserTie } from "react-icons/im";
@@ -8,6 +8,8 @@ import { FaRegFileVideo } from "react-icons/fa";
 import { BsCloudFog2Fill } from "react-icons/bs";
 import { GiHumanPyramid } from "react-icons/gi";
 import { MdOutlineDesignServices } from "react-icons/md";
+
+
 export default function JobsCategory() 
 {
     
@@ -20,8 +22,9 @@ export default function JobsCategory()
         </div>
 
         <div className="jobs-category-cards">
+            
             <JobsCatCard jobIcon={<AiOutlineAccountBook />} 
-            title="Accounts and Finance" para1="(331) Positions Available" para2="Remote Jobs Available" size={30} />
+            title="Accounts and Finance" para1="(331) Positions Available" para2="Remote Jobs Available" size={30} id="1" />
 
             <JobsCatCard jobIcon={<HiOutlineCodeBracketSquare />} title="Development" para1="(1000) Positions Available" para2="Hybrid Jobs Available" />
             

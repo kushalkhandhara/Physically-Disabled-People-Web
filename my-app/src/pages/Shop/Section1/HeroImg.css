@@ -50,6 +50,7 @@
 .heroImg .content .para
 {
     font-family:"Playfair Display", serif;
+    text-transform: capitalize;
 }
 .heroImg .content .form form
 {

@@ -14,16 +14,17 @@ export default function JobsCatCard(props)
     };
 
     return (
+
     <div className={`jobs-category-card ${isHovered ? 'hovered' : ''}`}  
     onMouseEnter={handleMouseEnter} 
     onMouseLeave={handleMouseLeave} 
     isHovered={isHovered}>
-        <Link>
+        <Link to={`jobCategory/${props.id}`}>
             <div className={`jobs-category-icon  ${isHovered ? 'hovered' : ''}`}>
                 {props.jobIcon}
             </div>
         </Link>
-        <Link>
+        <Link  to={`jobCategory/${props.id}`}>
             <div className="jobs-categoryCard-header">
                 <h6>{props.title}</h6>
                 <p>{props.para1}</p>
