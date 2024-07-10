@@ -1,0 +1,121 @@
+.jobs4
+{
+    margin-top: 76px;
+    width: 100%;
+    overflow: hidden;
+}
+.jobs4 .jobs4-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.jobs4 .jobs4-main .jobs4-side1
+{
+    width: 450px;
+    height: 400px;
+}
+.jobs4 .jobs4-main .jobs4-side1 img
+{
+    /* width: 100%;
+    height: 100%; */
+    width: 450px;
+    height: 400px;
+    object-fit: fill;
+}
+.jobs4 .jobs4-main .jobs4-side2
+{
+    width: 650px;
+}
+.jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header
+{
+    line-height: 1.2;
+    position: relative
+}
+.jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header span
+{
+    position: absolute;
+    left: 0;
+    top: -20%;
+
+}
+.jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header span h2
+{
+    color: rgb(50, 122, 255);
+    font-size: 110px;
+    font-weight: 700;
+
+}
+.jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header .easy
+{
+    font-weight: 600;
+    color: rgb(58, 57, 57);
+    font-size: 45px;
+    padding-left:78px;
+}
+.jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header h6
+{
+    color: gray;
+    padding-left:95px;
+}
+.jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-content
+{
+    color: rgb(92, 92, 92);
+}
+.jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-content h6
+{
+    line-height: 2.0;
+    /* color: rgb(139, 138, 138); */
+}
+@media(max-width:900px)
+{
+    .jobs4 .jobs4-main
+    {
+        flex-direction: column;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap:20px;
+    }
+    .jobs4 .jobs4-main .jobs4-side1
+    {
+        width: 100%;
+        /* height: 400px; */
+    }
+    .jobs4 .jobs4-main .jobs4-side1 img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .jobs4 .jobs4-main .jobs4-side2
+    {
+        width: 100%;
+    }
+    .jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header span
+    {
+        position: absolute;
+        left: 0;
+        top: -9%;
+    }
+    .jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header span h2
+    {
+        /* color: rgb(50, 122, 255); */
+        font-size: 90px;
+        /* font-weight: 700; */
+    }
+    .jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header .easy
+    {
+        /* font-weight: 600; */
+        /* color: rgb(58, 57, 57); */
+        font-size: 24px;
+        padding-left:68px;
+    }
+    .jobs4 .jobs4-main .jobs4-side2 .jobs4-side2-header h6
+    {
+        /* color: gray; */
+        padding-left:75px;
+    }
+
+}

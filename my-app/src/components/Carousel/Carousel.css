@@ -28,17 +28,17 @@
     width: 600px;
    
 }
-.carousel-caption h1
+.carousel-caption h3
 {
     font-family:"Playfair Display", serif;
     font-weight: 500;
-    font-size: 42px;
+    /* font-size: px; */
 }
 .carousel-caption .para
 {
     margin-top: 18px;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5;
 }
 .carousel-caption .para .common-btn
@@ -62,13 +62,13 @@
     {
         width: 300px;
     }
-    .carousel-caption h1
+    .carousel-caption h3
     {
         font-size: 20px;
     }
     .carousel-caption .para
     {
-        font-size: 13px;
+        font-size: 12px;
     }
     .carousel-item .carousel-img1 img
     {
