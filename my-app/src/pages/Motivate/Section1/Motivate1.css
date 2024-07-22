@@ -1,0 +1,20 @@
+.motivate1
+{
+    margin-top: 86px;
+    width: 100%;
+    overflow: hidden;
+}
+.motivate1 .motivate1-header
+{
+   
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
+.motivate1 .motivate1-explore
+{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
