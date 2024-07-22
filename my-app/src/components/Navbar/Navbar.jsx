@@ -40,7 +40,7 @@ function Navbar1()
                       <Nav.Link className= {menu==="shop"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("shop")}}  as={Link} to="/shop" >Shop</Nav.Link>
                       <Nav.Link className= {menu==="disablity"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("disablity")}} as={Link} to="/disablity" >Disablity</Nav.Link>
                       <Nav.Link className= {menu==="jobs"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("jobs")}}  as={Link} to="/jobs" >Jobs</Nav.Link>
-                      <Nav.Link className= {menu==="videos"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("videos")}} as={Link} to="/videos" >Videos</Nav.Link>
+                      <Nav.Link className= {menu==="motivate"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("motivate")}} as={Link} to="/motivate" >Motivate</Nav.Link>
                       <Nav.Link className= {menu==="chat"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("chat")}}  as={Link} to="/chat" >Chat</Nav.Link>
                       <Nav.Link className= {menu==="caretaker"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("caretaker")}}  as={Link} to="/caretaker" >Care Taker</Nav.Link>
                       <Nav.Link className= {menu==="volunteer"?"me-2 active" : "me-2"}  onClick={()=>{setMenu("volunteer")}}  as={Link} to="/volunteer" >Volunteer</Nav.Link>
